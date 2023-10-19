@@ -1,3 +1,6 @@
+  .post-info-outer-wrap, .blog-pager{
+      display: none !important;
+  }
 .post-info-list {
             overflow: hidden;
             height: auto;
@@ -11,21 +14,6 @@
             left: 14px;
         }
 
-        .file-icon {
-            position: absolute;
-            font-size: 30px;
-            top: 125px;
-            right: 20px;
-        }
-
-        .file-icon-line {
-            position: absolute;
-            top: 118px;
-            right: 70px;
-            width: 1px;
-            height: 38px;
-            background-color: #575757;
-        }
 
         .post-info-list a {
             text-decoration: none;
@@ -74,9 +62,9 @@
             cursor: pointer;
             width: 120px;
             height: 120px;
-            font-size: 10px;
-            background-color: #4a505b29;
-            border: 0.5px solid #4a505b29;
+            font-size: 15px;
+            background-color: #ffffff29;
+            border: 0.5px solid #ffffff29;
             margin: 10px;
             text-align: center;
             text-decoration: none;
