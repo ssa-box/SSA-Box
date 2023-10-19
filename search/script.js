@@ -16,14 +16,14 @@
         return Array.prototype.slice.call(arrayLike);
     };
     bookList.prototype.addSearchFilter = function () {
-        var searchInput = $("#ssatools-search")[0];
+        var searchInput = $("#shuffle-search")[0];
         if (!searchInput) {
             return;
         }
         searchInput.addEventListener("keyup", this._handleSearchKeyup.bind(this));
     };
     bookList.prototype._handleSearchKeyup = function (evt) {
-        var searchInput = $("#ssatools-search")[0];
+        var searchInput = $("#shuffle-search")[0];
         var searchText = evt.target.value.toLowerCase();
         if (searchInput && searchInput.value) {
             $(".catalog-search").addClass("input--filled");
