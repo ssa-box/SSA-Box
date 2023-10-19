@@ -1,6 +1,43 @@
 $(document).ready(function () {
     var Shuffle = window.shuffle;
 
+    var liData = [
+        {
+            name: "Arrow1",
+            img: "arrow.png",
+            link: "https://example.com/arrow",
+        },
+        {
+            name: "Arrow2",
+            img: "arrow.png",
+            link: "https://example.com/arrow",
+        },
+    ];
+
+    var liList = document.getElementById("sgrid");
+
+    liData.forEach(function (item) {
+        var listItem = document.createElement("li");
+        listItem.className = "icons";
+
+        // Create an image element and set the source
+        var image = document.createElement("img");
+        image.src = item.img;
+        listItem.appendChild(image);
+
+        // Create a span element for the text
+        var textSpan = document.createElement("span");
+        textSpan.textContent = item.name;
+        listItem.appendChild(textSpan);
+
+        listItem.addEventListener("click", function () {
+            // Open the specified link when the item is clicked
+            window.location.href = item.link;
+        });
+
+        liList.appendChild(listItem);
+    });
+
     var bookList = function (element) {
         this.element = element;
         this.shuffle = new Shuffle(element, {
@@ -38,39 +75,3 @@ $(document).ready(function () {
 
     window.book_list = new bookList($(".ssatoolshome-list-wrap > ul"));
 });
-
-
-        var liData = [
-            {
-                name: "Arrow1",
-                img: "arrow.png", 
-                link: "https://example.com/arrow",
-            },
-                        {
-                name: "Arrow2",
-                img: "arrow.png", 
-                link: "https://example.com/arrow",
-            },
-       
-        ];
-
-        var liList = document.getElementById("sgrid");
-
-        liData.forEach(function (item) {
-            var listItem = document.createElement("li");
-            listItem.className = "icons";
-
-            // Create an image element and set the source
-            var image = document.createElement("img");
-            image.src = item.img;
-            listItem.appendChild(image);
-
-            listItem.innerHTML += "<br>" + item.name;
-
-            listItem.addEventListener("click", function () {
-                // Open the specified link when the item is clicked
-                window.location.href = item.link;
-            });
-
-            liList.appendChild(listItem);
-        });
