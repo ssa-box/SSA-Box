@@ -4,7 +4,7 @@ $(document).ready(function () {
     var bookList = function (element) {
         this.element = element;
         this.shuffle = new Shuffle(element, {
-            itemSelector: ".ssatoolshome-list-wrap ul > li",
+            itemSelector: ".ssatoolshome-list > li",
         });
 
         this.addSearchFilter();
@@ -32,7 +32,7 @@ $(document).ready(function () {
 
         this.shuffle.filter(function (element, shuffle) {
             var itemName = element.getAttribute("data-item-name");
-            return itemName.indexOf(searchText) !== -1;
+            return itemName.toLowerCase().indexOf(searchText) !== -1;
         });
     };
 
