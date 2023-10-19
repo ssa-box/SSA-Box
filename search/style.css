@@ -1,112 +1,104 @@
 .post-info-list {
-    overflow: hidden;
-    height: auto;
-}
+            overflow: hidden;
+            height: auto;
+        }
 
-.search-icon {
-    color: #505050;
-    position: absolute;
-    font-size: 30px;
-    top: 66px;
-    left: 14px;
-}
+        .search-icon {
+            color: #505050;
+            position: absolute;
+            font-size: 30px;
+            top: 66px;
+            left: 14px;
+        }
 
-.file-icon {
-    position: absolute;
-    font-size: 30px;
-    top: 125px;
-    right: 20px;
-}
+        .file-icon {
+            position: absolute;
+            font-size: 30px;
+            top: 125px;
+            right: 20px;
+        }
 
-.file-icon-line {
-    position: absolute;
-    top: 118px;
-    right: 70px;
-    width: 1px;
-    height: 38px;
-    background-color: #575757;
-}
+        .file-icon-line {
+            position: absolute;
+            top: 118px;
+            right: 70px;
+            width: 1px;
+            height: 38px;
+            background-color: #575757;
+        }
 
-.post-info-list a {
-    text-decoration: none;
-    color: #0066db;
-}
+        .post-info-list a {
+            text-decoration: none;
+            color: #0066db;
+        }
 
-.ssa-search {
-    width: 100%;
-    height: 60px;
-    padding: 0 50px;
-    font-size: 1rem;
-    border: 1px solid #4b4b4b;
-    background-color: #1d252d;
-    color: #ffffff;
-    border-radius: 10px;
-    box-shadow: #191e23 0px 6px 20px 0px;
-    outline: none;
-    &:focus {
-        border: 1px solid #363636;
-        transition: 0.35s ease;
-        color: #ffffff;
-        &::-webkit-input-placeholder {
+        .ssa-search {
+            width: 100%;
+            height: 60px;
+            padding: 0 50px;
+            font-size: 1rem;
+            border: 1px solid #4b4b4b;
+            background-color: #1d252d;
+            color: #ffffff;
+            border-radius: 10px;
+            box-shadow: #191e23 0px 6px 20px 0px;
+            outline: none;
+        }
+
+        .ssa-search:focus {
+            border: 1px solid #363636;
+            transition: 0.35s ease;
+            color: #ffffff;
+        }
+
+        .ssa-search:focus::-webkit-input-placeholder {
             transition: opacity 0.45s ease;
             opacity: 0;
         }
-        &::-moz-placeholder {
+
+        .ssa-search:focus::-moz-placeholder {
             transition: opacity 0.45s ease;
             opacity: 0;
         }
-        &:-ms-placeholder {
+
+        .ssa-search:focus:-ms-placeholder {
             transition: opacity 0.45s ease;
             opacity: 0;
         }
-    }
-}
 
-.ssatoolshome-list-wrap ul>li {
-    float: left;
-    display: block;
-    margin: 0;
-    padding: 0;
-    cursor: pointer;
-    width: 120px;
-    height: 120px;
-    font-size: 10px;
-}
+        .ssatoolshome-list-wrap ul>li {
+            float: left;
+            display: block;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+            width: 120px;
+            height: 120px;
+            font-size: 10px;
+            background-color: #4a505b29;
+            border: 0.5px solid #4a505b29;
+            margin: 10px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 15px;
+        }
 
-.ssatoolshome-list-wrap ul>li>a {
-    display: block;
-    padding: 10px 10px;
-    color: #ffffff;
-    background-color: #4a505b29;
-    border: 0.5px solid #4a505b29;
-    margin: 10px;
-    text-align: center;
-    text-decoration: none;
-    border-radius: 15px;
-}
+        .ssatoolshome-list-wrap ul>li>a {
+            display: block;
+            padding: 10px 10px;
+            color: #ffffff;
+            text-align: center;
+        }
 
-.ssatoolshome-list-wrap ul>li>a:hover {
-    background-color: #4a505b6a;
-    border: 0.5px solid #0071bd;
-}
+        .ssatoolshome-list-wrap ul>li>a:hover {
+            background-color: #4a505b6a;
+            border: 0.5px solid #0071bd;
+        }
 
-.post-body ul li:before {
-    display: none;
-}
+        .post-body ul li:before {
+            display: none;
+        }
 
-.ssatoolshome-list-wrap ul>li>a>i {
-    font-size: 40px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
+        .ssatoolshome-list-wrap ul>li>a>i {
+            font-size: 40px;
+        }
