@@ -38,3 +38,39 @@ $(document).ready(function () {
 
     window.book_list = new bookList($(".ssatoolshome-list-wrap > ul"));
 });
+
+
+        var liData = [
+            {
+                name: "Arrow1",
+                img: "arrow.png", 
+                link: "https://example.com/arrow",
+            },
+                        {
+                name: "Arrow2",
+                img: "arrow.png", 
+                link: "https://example.com/arrow",
+            },
+       
+        ];
+
+        var liList = document.getElementById("sgrid");
+
+        liData.forEach(function (item) {
+            var listItem = document.createElement("li");
+            listItem.className = "icons";
+
+            // Create an image element and set the source
+            var image = document.createElement("img");
+            image.src = item.img;
+            listItem.appendChild(image);
+
+            listItem.innerHTML += "<br>" + item.name;
+
+            listItem.addEventListener("click", function () {
+                // Open the specified link when the item is clicked
+                window.location.href = item.link;
+            });
+
+            liList.appendChild(listItem);
+        });
