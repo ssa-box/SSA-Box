@@ -173,7 +173,7 @@
                     link: "/2023/07/html-to-xml-converter.html",
                 },         
                                {
-                    name: "JS Deobfuscator & Unpacker,
+                    name: "JS Deobfuscator & Unpacker",
                     img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
                     link: "/2023/08/javascript-deobfuscator-and-unpacker.html",
                 },
