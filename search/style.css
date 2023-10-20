@@ -4,6 +4,7 @@
 .post-info-list {
             overflow: hidden;
             height: auto;
+            min-height: 50px;
         }
 
         .search-icon {
@@ -69,6 +70,7 @@
             text-align: center;
             text-decoration: none;
             border-radius: 15px;
+            color:#fff;
         }
 
         .ssatoolshome-list-wrap ul>li>a {
