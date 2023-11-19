@@ -47,6 +47,11 @@
                     img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
                     link: "/2023/07/text-tool.html",
                 },
+                 {
+                    name: "Android Intent URLs",
+                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    link: "/2023/11/android-launch-link.html",
+                },
                 {
                     name: "Letter Sorter",
                     img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
