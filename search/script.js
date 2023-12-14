@@ -4,227 +4,227 @@
             var liData = [
                 {
                     name: "Icon Library",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
-                    link: "/2023/10/ssatools-icon-library.html",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/10/ssa-box-icon-library.html",
                 },
                 {
                     name: "Icons Documentation",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
-                    link: "/2023/10/ssatools-icons-documentation.html",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/10/ssa-box-icons-documentation.html",
                 },
                 {
                     name: "Advance Rewriter",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/advance-rewriter.html",
                 },
                 {
                     name: "Color Picker",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/color-token-generator.html",
                 },
                 {
                     name: "Code Editor",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/08/ssa-code-editor.html",
                 },
                 {
                     name: "Password Generator",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/password-generator.html",
                 },
                 {
                     name: "Voice To Text",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/voice-to-text-converter.html",
                 },
                 {
                     name: "Online Word",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/online-ssa-word.html",
                 }, 
                 {
                     name: "Text Tool",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/text-tool.html",
                 },
                  {
                     name: "Android Intent URLs",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/11/android-launch-link.html",
                 },
                 {
                     name: "Letter Sorter",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/08/letter-sorter.html",
                 },
                 {
                     name: "Text to Binary",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/text-to-binary-converter.html",
                 },
                 {
                     name: "Text Genetator",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/08/sentences-generator.html",
                 },
                 {
                     name: "Encrypt Decrypt",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/encrypt-decrypt.html",
                 },
                 {
                     name: "ALT Key",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/alt-key-code-symbols.html",
                 },
                {
                     name: "Text Faces",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/text-faces.html",
                 },
                 {
                     name: "Emoji",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/emoji-copy-and-paste.html",
                 },
                 {
                     name: "Code to Image",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/code-to-image-converter.html",
                 },
                 {
                     name: "PNG to JPG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/png-to-jpg-converter.html",
                 },
                {
                     name: "PNG to BMP",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/png-to-bmp-converter.html",
                 },
                 {
                     name: "PNG to GIF",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/png-to-gif-converter.html",
                 },
                 {
                     name: "PNG to SVG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/08/png-to-svg-converter.html",
                 },
                 {
                     name: "JPG to PNG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/jpg-to-png-converter.html",
                 },
                {
                     name: "JPG to PDF",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/jpg-to-pdf-convert.html",
                 },
                 {
                     name: "JPG to SVG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/jpg-to-svg-converter.html",
                 },
                 {
                     name: "BMP to PNG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/bmp-to-png-converter.html",
                 },
                 {
                     name: "BMP to JPG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/bmp-to-jpg-converter.html",
                 },
                {
                     name: "BMP to PNG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/bmp-to-png-converter.html",
                 },
                 {
                     name: "GIF to JPG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/gif-to-jpg-converter.html",
                 },
                 {
                     name: "GIF to PNG",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/gif-to-png-converter.html",
                 },
                 {
                     name: "QR Code",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/qr-code-generator.html",
                 },     
                               {
                     name: "Dynamic Bar",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/dynamic-bar-code-generator.html",
                 },
                 {
                     name: "Meta Tag",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/meta-tag-generator.html",
                 },
                 {
                     name: "YouTube Watch Time",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/youtube-watch-time-generator.html",
                 },
                 {
                     name: "Html to XML",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/html-to-xml-converter.html",
                 },         
                                {
                     name: "JS Deobfuscator & Unpacker",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/08/javascript-deobfuscator-and-unpacker.html",
                 },
                 {
                     name: "Basic Calculator",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/08/basic-calculator.html",
                 },
                 {
                     name: "Age Calculator",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/09/age-calculator.html",
                 },
                 {
                     name: "Nepali Date to English",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/09/nepali-date-to-english-converter.html",
                 },
                                {
                     name: "Video Downloader",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/07/youtube-video-downloader.html",
                 },
                 {
                     name: " CSS buttons",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/09/beautiful-css-buttons-examples.html",
                 },
                 {
                     name: "CSS checkboxes",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/09/beautiful-css-checkboxes-examples.html",
                 },
                 {
                     name: "CSS box shadow",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/09/beautiful-css-box-shadow-examples.html",
                 },    
                                {
                     name: "CSS shapes",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/09/css-shapes-examples.html",
                 },
                 {
                     name: "Css Loaders",
-                    img: "https://ssatools.github.io/SSASK-Tools/search/ssatoolimg.png",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/css-loaders-example.html",
                 },
                     
@@ -256,7 +256,7 @@
             var bookList = function (element) {
                 this.element = element;
                 this.shuffle = new Shuffle(element, {
-                    itemSelector: ".ssatoolshome-list-wrap ul>li", // Adjust the item selector
+                    itemSelector: ".ssa-boxhome-list-wrap ul>li", // Adjust the item selector
                 });
 
                 this.addSearchFilter();
@@ -288,5 +288,5 @@
                 });
             };
 
-            window.book_list = new bookList($(".ssatoolshome-list-wrap > ul"));
+            window.book_list = new bookList($(".ssa-boxhome-list-wrap > ul"));
         });
