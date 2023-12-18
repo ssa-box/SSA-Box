@@ -236,7 +236,10 @@
     
             ];
 
-            var liList = document.getElementById("sgrid");
+                     var liList = document.getElementsByClassName("icons");
+
+            // Convert liList to an array
+            var liArray = Array.from(liList);
 
             liData.forEach(function (item) {
                 var listItem = document.createElement("li");
@@ -258,26 +261,25 @@
                 liList.appendChild(listItem);
             });
 
-function filterItems() {
-    // Get the value entered in the search bar
-    var searchTerm = document.getElementById('shuffle-search').value.toLowerCase();
+            function filterItems() {
+                // Get the value entered in the search bar
+                var searchTerm = document.getElementById('shuffle-search').value.toLowerCase();
 
-    // Get all items in the list
+                // Loop through each item and hide/show based on the search term
+                liArray.forEach(function (item) {
+                    var itemName = item.getAttribute('data-item-name').toLowerCase();
+                    if (itemName.includes(searchTerm)) {
+                        item.style.display = 'block';  // Show the entire list item
+                    } else {
+                        item.style.display = 'none';   // Hide the entire list item
+                    }
+                });
+            }
 
+            // Attach the filterItems function to the input event of the search bar
+            document.getElementById('shuffle-search').addEventListener('input', filterItems);
 
-    // Loop through each item and hide/show based on the search term
-    liList.forEach(function(item) {
-      var itemName = item.getAttribute('data-item-name').toLowerCase();
-      if (itemName.includes(searchTerm)) {
-        item.style.display = 'block';  // Show the item
-      } else {
-        item.style.display = 'none';   // Hide the item
-      }
-    });
-  }
-
-  // Attach the filterItems function to the input event of the search bar
-  document.getElementById('shuffle-search').addEventListener('input', filterItems);
+        });
 
                 
         //     var bookList = function (element) {
