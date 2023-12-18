@@ -236,50 +236,49 @@
     
             ];
 
-            var liList = document.getElementById("sgrid");
+               var liList = document.getElementById("sgrid");
 
-            liData.forEach(function (item) {
-                var listItem = document.createElement("li");
-                listItem.className = "icons";
-                listItem.setAttribute("data-item-name", item.name); // Add data attribute
+    liData.forEach(function (item) {
+        var listItem = document.createElement("li");
+        listItem.className = "icons";
+        listItem.setAttribute("data-item-name", item.name); // Add data attribute
 
-                var image = document.createElement("img");
-                image.src = item.img;
-                listItem.appendChild(image);
+        var image = document.createElement("img");
+        image.src = item.img;
+        listItem.appendChild(image);
 
-                var textSpan = document.createElement("span");
-                textSpan.textContent = item.name;
-                listItem.appendChild(textSpan);
+        var textSpan = document.createElement("span");
+        textSpan.textContent = item.name;
+        listItem.appendChild(textSpan);
 
-                listItem.addEventListener("click", function () {
-                    window.location.href = item.link;
-                });
+        listItem.addEventListener("click", function () {
+            window.location.href = item.link;
+        });
 
-                liList.appendChild(listItem);
-            });
-
-function filterItems() {
-    // Get the value entered in the search bar
-    var searchTerm = document.getElementById('shuffle-search').value.toLowerCase();
-
-    // Get all items in the list
-
-
-    // Loop through each item and hide/show based on the search term
-    liList.forEach(function(item) {
-      var itemName = item.getAttribute('data-item-name').toLowerCase();
-      if (itemName.includes(searchTerm)) {
-        item.style.display = 'block';  // Show the item
-      } else {
-        item.style.display = 'none';   // Hide the item
-      }
+        liList.appendChild(listItem);
     });
-  }
 
-  // Attach the filterItems function to the input event of the search bar
-  document.getElementById('shuffle-search').addEventListener('input', filterItems);
+    function filterItems() {
+        // Get the value entered in the search bar
+        var searchTerm = document.getElementById('shuffle-search').value.toLowerCase();
 
-                
+        // Get all items in the list
+        var items = liList.getElementsByClassName('icons');
+
+        // Loop through each item and hide/show based on the search term
+        for (var i = 0; i < items.length; i++) {
+            var itemName = items[i].getAttribute('data-item-name').toLowerCase();
+            if (itemName.includes(searchTerm)) {
+                items[i].style.display = 'block';  // Show the item
+            } else {
+                items[i].style.display = 'none';   // Hide the item
+            }
+        }
+    }
+
+    // Attach the filterItems function to the input event of the search bar
+    document.getElementById('shuffle-search').addEventListener('input', filterItems);
+});
         //     var bookList = function (element) {
         //         this.element = element;
         //         this.shuffle = new Shuffle(element, {
@@ -316,4 +315,4 @@ function filterItems() {
         //     };
 
         //     window.book_list = new bookList($(".ssa-boxhome-list-wrap > ul"));
-        });
+      
