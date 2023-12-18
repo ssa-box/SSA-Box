@@ -3,9 +3,29 @@
 
             var liData = [
                 {
-                    name: "Icon Library",
+                    name: "Typing Test",
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
-                    link: "/2023/10/ssabox-icon-library.html",
+                    link: "/2023/12/typing-speed-test.html",
+                },                {
+                    name: "Currency Converter",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/12/currency-converter.html",
+                },                {
+                    name: "Nj Rat",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/12/nj-rat-download-for-free.html",
+                },                {
+                    name: "Language Translator",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/12/language-translator.html",
+                },                {
+                    name: "Chess Game",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/11/chess-online-game.html",
+                },                {
+                    name: "Chat Bot",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/12/chat-bot.html",
                 },
                  {
                     name: "Icon Library",
