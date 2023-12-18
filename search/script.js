@@ -11,7 +11,7 @@
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/12/currency-converter.html",
                 },                {
-                    name: "Nj Rat",
+                    name: " Nj Rat",
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/12/nj-rat-download-for-free.html",
                 },                {
