@@ -1,5 +1,5 @@
         $(document).ready(function () {
-            var Shuffle = window.shuffle;
+            
 
             var liData = [
                 {
