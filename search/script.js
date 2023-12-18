@@ -258,40 +258,62 @@
                 liList.appendChild(listItem);
             });
 
-            var bookList = function (element) {
-                this.element = element;
-                this.shuffle = new Shuffle(element, {
-                    itemSelector: ".ssa-boxhome-list-wrap ul>li", // Adjust the item selector
-                });
+function filterItems() {
+    // Get the value entered in the search bar
+    var searchTerm = document.getElementById('shuffle-search').value.toLowerCase();
 
-                this.addSearchFilter();
-            };
+    // Get all items in the list
 
-            bookList.prototype.addSearchFilter = function () {
-                var searchInput = $("#shuffle-search")[0];
 
-                if (!searchInput) {
-                    return;
-                }
+    // Loop through each item and hide/show based on the search term
+    liList.forEach(function(item) {
+      var itemName = item.getAttribute('data-item-name').toLowerCase();
+      if (itemName.includes(searchTerm)) {
+        item.style.display = 'block';  // Show the item
+      } else {
+        item.style.display = 'none';   // Hide the item
+      }
+    });
+  }
 
-                searchInput.addEventListener("keyup", this._handleSearchKeyup.bind(this));
-            };
+  // Attach the filterItems function to the input event of the search bar
+  document.getElementById('shuffle-search').addEventListener('input', filterItems);
 
-            bookList.prototype._handleSearchKeyup = function (evt) {
-                var searchInput = $("#shuffle-search")[0];
-                var searchText = evt.target.value.toLowerCase();
+                
+        //     var bookList = function (element) {
+        //         this.element = element;
+        //         this.shuffle = new Shuffle(element, {
+        //             itemSelector: ".ssa-boxhome-list-wrap ul>li", // Adjust the item selector
+        //         });
 
-                if (searchInput && searchInput.value) {
-                    $(".catalog-search").addClass("input--filled");
-                } else {
-                    $(".catalog-search").removeClass("input--filled");
-                }
+        //         this.addSearchFilter();
+        //     };
 
-                this.shuffle.filter(function (element, shuffle) {
-                    var itemName = element.getAttribute("data-item-name");
-                    return itemName.toLowerCase().indexOf(searchText) !== -1;
-                });
-            };
+        //     bookList.prototype.addSearchFilter = function () {
+        //         var searchInput = $("#shuffle-search")[0];
 
-            window.book_list = new bookList($(".ssa-boxhome-list-wrap > ul"));
-        });
+        //         if (!searchInput) {
+        //             return;
+        //         }
+
+        //         searchInput.addEventListener("keyup", this._handleSearchKeyup.bind(this));
+        //     };
+
+        //     bookList.prototype._handleSearchKeyup = function (evt) {
+        //         var searchInput = $("#shuffle-search")[0];
+        //         var searchText = evt.target.value.toLowerCase();
+
+        //         if (searchInput && searchInput.value) {
+        //             $(".catalog-search").addClass("input--filled");
+        //         } else {
+        //             $(".catalog-search").removeClass("input--filled");
+        //         }
+
+        //         this.shuffle.filter(function (element, shuffle) {
+        //             var itemName = element.getAttribute("data-item-name");
+        //             return itemName.toLowerCase().indexOf(searchText) !== -1;
+        //         });
+        //     };
+
+        //     window.book_list = new bookList($(".ssa-boxhome-list-wrap > ul"));
+        // });
