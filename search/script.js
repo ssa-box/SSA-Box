@@ -14,6 +14,10 @@
                     name: "Currency Converter",
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/12/currency-converter.html",
+                },  {
+                    name: "Button Generator",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/12/css3-button-generator.html",
                 },                {
                     name: " Nj Rat",
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
