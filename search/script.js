@@ -7,6 +7,14 @@
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2024/01/file-downloader-via-url.html",
                 }, {
+                    name: "Favicon",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/12/favicon-generator.html",
+                }, {
+                    name: "URL encoder",
+                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
+                    link: "/2023/12/url-encoder-for-svg.html",
+                }, {
                     name: "Typing Test",
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/12/typing-speed-test.html",
@@ -18,11 +26,7 @@
                     name: "Button Generator",
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/12/css3-button-generator.html",
-                },                {
-                    name: " Nj Rat",
-                    img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
-                    link: "/2023/12/nj-rat-download-for-free.html",
-                },                {
+                },{
                     name: "Language Translator",
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/12/language-translator.html",
