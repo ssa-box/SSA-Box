@@ -264,87 +264,35 @@
                     img: "https://ssa-box.github.io/SSA-Box/search/ssatoolimg.png",
                     link: "/2023/10/css-loaders-example.html",
                 },
-                    
-    
             ];
-
                var liList = document.getElementById("sgrid");
-
     liData.forEach(function (item) {
         var listItem = document.createElement("li");
         listItem.className = "icons";
-        listItem.setAttribute("data-item-name", item.name); // Add data attribute
-
+        listItem.setAttribute("data-item-name", item.name);
         var image = document.createElement("img");
         image.src = item.img;
         listItem.appendChild(image);
-
         var textSpan = document.createElement("span");
         textSpan.textContent = item.name;
         listItem.appendChild(textSpan);
-
         listItem.addEventListener("click", function () {
             window.location.href = item.link;
         });
-
         liList.appendChild(listItem);
     });
-
     function filterItems() {
-        // Get the value entered in the search bar
         var searchTerm = document.getElementById('shuffle-search').value.toLowerCase();
-
-        // Get all items in the list
         var items = liList.getElementsByClassName('icons');
-
-        // Loop through each item and hide/show based on the search term
         for (var i = 0; i < items.length; i++) {
             var itemName = items[i].getAttribute('data-item-name').toLowerCase();
             if (itemName.includes(searchTerm)) {
-                items[i].style.display = 'block';  // Show the item
+                items[i].style.display = 'block';
             } else {
-                items[i].style.display = 'none';   // Hide the item
+                items[i].style.display = 'none'; 
             }
         }
     }
-
-    // Attach the filterItems function to the input event of the search bar
     document.getElementById('shuffle-search').addEventListener('input', filterItems);
 });
-        //     var bookList = function (element) {
-        //         this.element = element;
-        //         this.shuffle = new Shuffle(element, {
-        //             itemSelector: ".ssa-boxhome-list-wrap ul>li", // Adjust the item selector
-        //         });
-
-        //         this.addSearchFilter();
-        //     };
-
-        //     bookList.prototype.addSearchFilter = function () {
-        //         var searchInput = $("#shuffle-search")[0];
-
-        //         if (!searchInput) {
-        //             return;
-        //         }
-
-        //         searchInput.addEventListener("keyup", this._handleSearchKeyup.bind(this));
-        //     };
-
-        //     bookList.prototype._handleSearchKeyup = function (evt) {
-        //         var searchInput = $("#shuffle-search")[0];
-        //         var searchText = evt.target.value.toLowerCase();
-
-        //         if (searchInput && searchInput.value) {
-        //             $(".catalog-search").addClass("input--filled");
-        //         } else {
-        //             $(".catalog-search").removeClass("input--filled");
-        //         }
-
-        //         this.shuffle.filter(function (element, shuffle) {
-        //             var itemName = element.getAttribute("data-item-name");
-        //             return itemName.toLowerCase().indexOf(searchText) !== -1;
-        //         });
-        //     };
-
-        //     window.book_list = new bookList($(".ssa-boxhome-list-wrap > ul"));
       
